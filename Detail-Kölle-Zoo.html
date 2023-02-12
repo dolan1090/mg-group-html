@@ -9,7 +9,11 @@
     />
 
     <link rel="icon" href="css/images/favicon.ico" />
-    <link rel="stylesheet/less" type="text/css" href="./css/Detail-Kölle-Zoo/styles.less">
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="./css/styles.less"
+    />
   </head>
 
   <body>
@@ -29,11 +33,11 @@
                   </a>
                 </div>
               </div>
-              <div class="col-xxl-10">
+              <div class="col-xxl-10 main-menu-wrapper">
                 <div class="box-languages">
                   <div class="container-fluid">
                     <div class="row">
-                      <select>
+                      <select id="languages-select">
                         <option>deutsch</option>
                         <option>english</option>
                       </select>
@@ -43,22 +47,22 @@
                 <div class="clear"></div>
                 <!-- End topbar -->
                 <ul id="main-menu" class="sm sm-clean">
-                  <li>
+                  <li class="menu-item active">
                     <a href="#!"> mp group </a>
                     <ul>
-                      <li><a href="#!">News</a></li>
-                      <li><a href="#!">Über uns</a></li>
-                      <li><a href="#!">Karriere</a></li>
+                      <li class="sub-menu-item"><a href="#!">News</a></li>
+                      <li class="sub-menu-item"><a href="#!">Über uns</a></li>
+                      <li class="sub-menu-item"><a href="#!">Karriere</a></li>
                     </ul>
                   </li>
-                  <li><a href="#!">Kölle Zoo</a></li>
-                  <li><a href="#!">Fressnapf</a></li>
-                  <li><a href="#!">Zoologo</a></li>
-                  <li><a href="#!">mp services</a></li>
-                  <li><a href="#!">Exlusivmarken</a></li>
-                  <li><a href="#!">Immobilien</a></li>
-                  <li><a href="#!">Großprojekte</a></li>
-                  <li><a href="#!">Sonstige Projekte</a></li>
+                  <li class="menu-item"><a href="#!">Kölle Zoo</a></li>
+                  <li class="menu-item"><a href="#!">Fressnapf</a></li>
+                  <li class="menu-item"><a href="#!">Zoologo</a></li>
+                  <li class="menu-item"><a href="#!">mp services</a></li>
+                  <li class="menu-item"><a href="#!">Exlusivmarken</a></li>
+                  <li class="menu-item"><a href="#!">Immobilien</a></li>
+                  <li class="menu-item"><a href="#!">Großprojekte</a></li>
+                  <li class="menu-item"><a href="#!">Sonstige Projekte</a></li>
                 </ul>
               </div>
             </div>
@@ -78,44 +82,81 @@
       <!-- title Detail-Kolle-Zoo main -->
 
       <section class="Detail-Kolle-Zoo-header-main">
-        <img src="./image/Detail-Kölle-Zoo/title-main-Detail-Kolle-Zoo.png" alt="title-main-Detail-Kolle-Zoo" class="Detail-Kolle-Zoo-header-main__images">
+        <img
+          src="./image/Detail-Kölle-Zoo/title-main-Detail-Kolle-Zoo.png"
+          alt="title-main-Detail-Kolle-Zoo"
+          class="Detail-Kolle-Zoo-header-main__images"
+        />
       </section>
 
       <!-- post title -->
       <section class="Detail-Kolle-Zoo-title">
-        <p class="Detail-Kolle-Zoo-title-post">46 Kölle Zoo Märkte in ganz Deutschland</p>
+        <p class="Detail-Kolle-Zoo-title-post">
+          46 Kölle Zoo Märkte in ganz Deutschland
+        </p>
       </section>
 
       <!-- post 1 -->
       <article class="Detail-Kolle-Zoo-origin">
-          <div class="Detail-Kolle-Zoo-origin__left">
-            <p class="Detail-Kolle-Zoo-origin-title__left">Subheadline Roboto Slab bold</p>
-            <p class="Detail-Kolle-Zoo-origin-desc__left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
-              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
-              venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate 
-              eleifend tellus. </p>
-            <p class="Detail-Kolle-Zoo-origin-desc__left">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra 
-              quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur 
-              ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing 
-              sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut 
-              libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. </p>
-          </div>
-          <div class="Detail-Kolle-Zoo-origin__right">
-            <p class="Detail-Kolle-Zoo-origin-desc__right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
-              sem. Nulla consequat massa quis enim. </p>
-            <p class="Detail-Kolle-Zoo-origin-title__right">Subheadline Roboto Slab bold</p>
-            <p class="Detail-Kolle-Zoo-origin-desc__right">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
-              venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate 
-              eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
-              Phasellus viverra nulla ut metus varius laoreet. </p>
-          </div>
+        <div class="Detail-Kolle-Zoo-origin__left">
+          <p class="Detail-Kolle-Zoo-origin-title__left">
+            Subheadline Roboto Slab bold
+          </p>
+          <p class="Detail-Kolle-Zoo-origin-desc__left">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
+          </p>
+          <p class="Detail-Kolle-Zoo-origin-desc__left">
+            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+            ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+            tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit
+            amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
+            luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+            tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+            Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+            Duis leo.
+          </p>
+        </div>
+        <div class="Detail-Kolle-Zoo-origin__right">
+          <p class="Detail-Kolle-Zoo-origin-desc__right">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </p>
+          <p class="Detail-Kolle-Zoo-origin-title__right">
+            Subheadline Roboto Slab bold
+          </p>
+          <p class="Detail-Kolle-Zoo-origin-desc__right">
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+            dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+            tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+            ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+            tellus. Phasellus viverra nulla ut metus varius laoreet.
+          </p>
+        </div>
       </article>
 
       <!-- post1 img -->
       <section class="Detail-Kolle-Zoo-origin-post-images">
-        <img src="./image/Detail-Kölle-Zoo/images-post-Articles-1.jpg" alt="" class="Detail-Kolle-Zoo-origin-post-images__child">
+        <img
+          src="./image/Detail-Kölle-Zoo/images-post-Articles-1.jpg"
+          alt=""
+          class="Detail-Kolle-Zoo-origin-post-images__child"
+        />
       </section>
 
       <!-- post 2 -->
@@ -123,77 +164,148 @@
       <!-- post 1 -->
       <article class="Detail-Kolle-Zoo-origin">
         <div class="Detail-Kolle-Zoo-origin__left">
-          <p class="Detail-Kolle-Zoo-origin-title__left">Subheadline Roboto Slab bold</p>
-          <p class="Detail-Kolle-Zoo-origin-desc__left">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim 
-            justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum 
-            semper nisi. Aenean vulputate eleifend tellus. </p>
-          <p class="Detail-Kolle-Zoo-origin-desc__left">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, 
-            feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper 
-            ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. 
-            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. </p>
+          <p class="Detail-Kolle-Zoo-origin-title__left">
+            Subheadline Roboto Slab bold
+          </p>
+          <p class="Detail-Kolle-Zoo-origin-desc__left">
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
+          </p>
+          <p class="Detail-Kolle-Zoo-origin-desc__left">
+            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+            ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+            tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit
+            amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
+            luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+            tincidunt tempus.
+          </p>
           <div class="Detail-Kolle-Zoo-origin-desc-images-left">
-            <img src="./image/Detail-Kölle-Zoo/images-post-Articles-2.jpg" alt="Detail-Kölle-Zoo images-post-Articles-2" class="Detail-Kolle-Zoo-origin-desc-images-left__child">
+            <img
+              src="./image/Detail-Kölle-Zoo/images-post-Articles-2.jpg"
+              alt="Detail-Kölle-Zoo images-post-Articles-2"
+              class="Detail-Kolle-Zoo-origin-desc-images-left__child"
+            />
           </div>
         </div>
         <div class="Detail-Kolle-Zoo-origin__right">
-          <p class="Detail-Kolle-Zoo-origin-desc__right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-            Nulla consequat massa quis enim. 
-            llam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, 
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. </p>
+          <p class="Detail-Kolle-Zoo-origin-desc__right">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. llam dictum felis eu pede mollis
+            pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
+            nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor
+            eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus
+            in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut
+            metus varius laoreet.
+          </p>
           <div class="Detail-Kolle-Zoo-origin-desc-images-right">
-            <img src="./image/Detail-Kölle-Zoo/images-post-Articles-2.2.jpg" alt="Detail-Kölle-Zoo images-post-Articles-2.2" class="Detail-Kolle-Zoo-origin-desc-images-right__child">
+            <img
+              src="./image/Detail-Kölle-Zoo/images-post-Articles-2.2.jpg"
+              alt="Detail-Kölle-Zoo images-post-Articles-2.2"
+              class="Detail-Kolle-Zoo-origin-desc-images-right__child"
+            />
           </div>
-          <p class="Detail-Kolle-Zoo-origin-title__right">Subheadline Roboto Slab bold</p>
-          <p class="Detail-Kolle-Zoo-origin-desc__right">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-            tellus. </p>
-          <p class="Detail-Kolle-Zoo-origin-desc__right">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
-            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-            rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit 
-            id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis 
-            leo. </p>
+          <p class="Detail-Kolle-Zoo-origin-title__right">
+            Subheadline Roboto Slab bold
+          </p>
+          <p class="Detail-Kolle-Zoo-origin-desc__right">
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
+          </p>
+          <p class="Detail-Kolle-Zoo-origin-desc__right">
+            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+            ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+            tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit
+            amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
+            luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+            tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+            Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+            Duis leo.
+          </p>
         </div>
       </article>
 
-    <article class="Detail-Kolle-Zoo-form">
-      <div class="Detail-Kolle-Zoo-form-user">
-        <p class="Detail-Kolle-Zoo-form-header">Nehmen Sie Kontakt mit Kölle Zoo auf:</p>
-        <div class="Detail-Kolle-Zoo-form-user-input">
-          <form action="/action_page.php">
-            <div class="Detail-Kolle-Zoo-form__infor">
-              <div class="Detail-Kolle-Zoo-form-name-infor">
-                <label for="frame" class="Detail-Kolle-Zoo-form-infor-user">Vorname*</label>
-                <input type="text" class="Detail-Kolle-Zoo-form-box-user" name="Vorname">
+      <article class="Detail-Kolle-Zoo-form">
+        <div class="Detail-Kolle-Zoo-form-user">
+          <p class="Detail-Kolle-Zoo-form-header">
+            Nehmen Sie Kontakt mit Kölle Zoo auf:
+          </p>
+          <div class="Detail-Kolle-Zoo-form-user-input">
+            <form action="/action_page.php">
+              <div class="Detail-Kolle-Zoo-form__infor">
+                <div class="Detail-Kolle-Zoo-form-name-infor">
+                  <label for="frame" class="Detail-Kolle-Zoo-form-infor-user"
+                    >Vorname*</label
+                  >
+                  <input
+                    type="text"
+                    class="Detail-Kolle-Zoo-form-box-user"
+                    name="Vorname"
+                  />
+                </div>
+                <div class="Detail-Kolle-Zoo-form-name-infor">
+                  <label for="frame" class="Detail-Kolle-Zoo-form-infor-user"
+                    >Nachname*</label
+                  >
+                  <input
+                    type="text"
+                    class="Detail-Kolle-Zoo-form-box-user"
+                    name="Nachname"
+                  />
+                </div>
               </div>
-              <div class="Detail-Kolle-Zoo-form-name-infor">
-                <label for="frame" class="Detail-Kolle-Zoo-form-infor-user">Nachname*</label>
-                <input type="text" class="Detail-Kolle-Zoo-form-box-user" name="Nachname">
-              </div>
-            </div>
 
-            <div class="Detail-Kolle-Zoo-form__infor">
-              <div class="Detail-Kolle-Zoo-form-name-infor">
-                <label for="frame" class="Detail-Kolle-Zoo-form-infor-user">Email*</label>
-                <input type="text" class="Detail-Kolle-Zoo-form-box-user" name="Email">
+              <div class="Detail-Kolle-Zoo-form__infor">
+                <div class="Detail-Kolle-Zoo-form-name-infor">
+                  <label for="frame" class="Detail-Kolle-Zoo-form-infor-user"
+                    >Email*</label
+                  >
+                  <input
+                    type="text"
+                    class="Detail-Kolle-Zoo-form-box-user"
+                    name="Email"
+                  />
+                </div>
+                <div class="Detail-Kolle-Zoo-form-name-infor">
+                  <label for="frame" class="Detail-Kolle-Zoo-form-infor-user"
+                    >Telephone*</label
+                  >
+                  <input
+                    type="text"
+                    class="Detail-Kolle-Zoo-form-box-user"
+                    name="Telephone"
+                  />
+                </div>
               </div>
-              <div class="Detail-Kolle-Zoo-form-name-infor">
-                <label for="frame" class="Detail-Kolle-Zoo-form-infor-user">Telephone*</label>
-                <input type="text" class="Detail-Kolle-Zoo-form-box-user" name="Telephone">
-              </div>
-            </div>
 
-            <label for="frame" class="Detail-Kolle-Zoo-form-infor-user">Nachricht*</label>
-            <textarea class="Detail-Kolle-Zoo-form-text"></textarea>
-            <button type="submit" class="Detail-Kolle-Zoo-form__submit">
-              <span class="Detail-Kolle-Zoo-form__submit-grey"></span>
-              <span class="Detail-Kolle-Zoo-form__submit-content">Nachricht senden</span>
-            </button>
-          </form>
+              <label for="frame" class="Detail-Kolle-Zoo-form-infor-user"
+                >Nachricht*</label
+              >
+              <textarea class="Detail-Kolle-Zoo-form-text"></textarea>
+              <button type="submit" class="Detail-Kolle-Zoo-form__submit">
+                <span class="Detail-Kolle-Zoo-form__submit-grey"></span>
+                <span class="Detail-Kolle-Zoo-form__submit-content"
+                  >Nachricht senden</span
+                >
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
-    </article>
-
+      </article>
     </main>
 
     <footer>
@@ -219,6 +331,13 @@
       </div>
     </footer>
 
+    <script>
+      less = {
+        env: "development",
+        relativeUrls: true,
+      };
+    </script>
+    <script src="js/base/custom-select.min.js"></script>
     <script type="text/javascript" src="js/base/jquery.min.js" defer></script>
     <script
       type="text/javascript"

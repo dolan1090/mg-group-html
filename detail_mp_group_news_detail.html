@@ -53,11 +53,11 @@
                   </a>
                 </div>
               </div>
-              <div class="col-xxl-10">
+              <div class="col-xxl-10 main-menu-wrapper">
                 <div class="box-languages">
                   <div class="container-fluid">
                     <div class="row">
-                      <select>
+                      <select id="languages-select">
                         <option>deutsch</option>
                         <option>english</option>
                       </select>
@@ -67,22 +67,22 @@
                 <div class="clear"></div>
                 <!-- End topbar -->
                 <ul id="main-menu" class="sm sm-clean">
-                  <li>
+                  <li class="menu-item active">
                     <a href="#!"> mp group </a>
                     <ul>
-                      <li><a href="#!">News</a></li>
-                      <li><a href="#!">Über uns</a></li>
-                      <li><a href="#!">Karriere</a></li>
+                      <li class="sub-menu-item"><a href="#!">News</a></li>
+                      <li class="sub-menu-item"><a href="#!">Über uns</a></li>
+                      <li class="sub-menu-item"><a href="#!">Karriere</a></li>
                     </ul>
                   </li>
-                  <li><a href="#!">Kölle Zoo</a></li>
-                  <li><a href="#!">Fressnapf</a></li>
-                  <li><a href="#!">Zoologo</a></li>
-                  <li><a href="#!">mp services</a></li>
-                  <li><a href="#!">Exlusivmarken</a></li>
-                  <li><a href="#!">Immobilien</a></li>
-                  <li><a href="#!">Großprojekte</a></li>
-                  <li><a href="#!">Sonstige Projekte</a></li>
+                  <li class="menu-item"><a href="#!">Kölle Zoo</a></li>
+                  <li class="menu-item"><a href="#!">Fressnapf</a></li>
+                  <li class="menu-item"><a href="#!">Zoologo</a></li>
+                  <li class="menu-item"><a href="#!">mp services</a></li>
+                  <li class="menu-item"><a href="#!">Exlusivmarken</a></li>
+                  <li class="menu-item"><a href="#!">Immobilien</a></li>
+                  <li class="menu-item"><a href="#!">Großprojekte</a></li>
+                  <li class="menu-item"><a href="#!">Sonstige Projekte</a></li>
                 </ul>
               </div>
             </div>
@@ -92,6 +92,7 @@
       <div class="clear"></div>
       <!-- End box-nav -->
     </header>
+
     <main>
       <!-- Banner -->
       <section class="banner">
@@ -254,7 +255,13 @@
         </div>
       </div>
     </footer>
-
+    <script>
+      less = {
+        env: "development",
+        relativeUrls: true,
+      };
+    </script>
+    <script src="js/base/custom-select.min.js"></script>
     <script type="text/javascript" src="js/base/jquery.min.js" defer></script>
     <script
       type="text/javascript"
