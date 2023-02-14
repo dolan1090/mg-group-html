@@ -127,7 +127,7 @@
   &-form {
     margin-top: 6.4vw;
     width: 100%;
-    height: 70vw;
+    height: 74vw;
     background-color: #aeca0e;
 
     &-user{
@@ -196,7 +196,7 @@
       border: none;
       position: relative;
       float: right;
-      margin-top: 3.6vw;
+      margin-top: 5.6vw;
       overflow: hidden;
 
       &-grey{
@@ -241,4 +241,60 @@
   background-color: transparent;
   border: none;
   color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Detail-Kolle-Zoo-form {
+    height: 297vw;
+
+    &__infor{
+      flex-direction: column;
+    }
+
+    &-infor-user{
+      font-size: 5.8vw;
+    }
+
+    &-form-box-user{
+      width: 100%;
+      height: 13vw;
+    }
+    
+    &-header{
+      font-size: 10.2vw;
+    }
+
+    &-user-input{
+      margin-top: 5vw;
+    }
+
+    &-name-infor{
+      height: 37vw;
+    }
+
+    &__submit{
+      width: 44vw;
+      height: 10.2vw;
+      transform: translateY(40vw);
+
+      &-content{
+        font-size: 2.8vw;
+      }
+    }
+
+    
+
+  }
+
+
+  label.Detail-Kolle-Zoo-form-infor-user {
+    margin-bottom: -3vw;
+}
+
+.wpcf7 form .wpcf7-response-output{
+  margin: 1em 0.5em;
+  padding: 1.2em 1.2em;
+}
+
 }
