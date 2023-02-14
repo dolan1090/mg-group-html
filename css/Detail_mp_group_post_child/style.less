@@ -1,0 +1,101 @@
+.banner-Detail-post-child {
+    position: relative;
+    padding-top: 43%;
+  
+    @media @max767 {
+      padding-top: 55%;
+    }
+  
+    &-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-image: url(../../image/Detail_mp_group_post_child/mp-group-head-news.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+.Detail-post-child{
+
+    &:last-child{
+        display: block;
+        width: 38.8vw;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    &_header{
+        margin-top: 5vw;
+        
+        & h3{
+            font-size: 3.7vw;
+            font-family: "BebasNeue", sans-serif;
+            font-weight: bold;
+            text-align: center;
+            color: #999999;
+        }
+    }
+
+    &__introduce{
+        width: 65.4vw;
+        margin: 0 auto;
+        & p {
+            font-size: 1.7vw;
+            text-align: center;
+            color: #999999;
+        }
+    }
+}
+
+.Detail-child-article-first{
+    width: 79.6vw;
+    height: 36.6vw;
+    display: flex;
+    margin: 5vw auto 0 auto;
+
+    &-content{
+        width: 38.8vw;
+        height: 100%;
+        margin: 0 2vw;
+
+        & img {
+            width: 100%;
+            height: 25vw;
+            object-fit: cover;
+            overflow: hidden;
+        }
+
+        & h3{
+            margin-top: 2.2vw;
+        }
+
+        & h3 a{
+            font-size: 1.4vw;
+            font-weight: bold;
+            font-family: "RobotoSlab", sans-serif;
+            color: #999999;
+            text-decoration: none;
+        }
+
+        & p {
+            font-size: 1vw;
+            font-family: "RobotoSlab", sans-serif;
+            color: #999999;
+            width: 100%;
+            text-align: justify;
+        }
+    }
+
+    &:last-child {
+        & .Detail-child-article-first-content{
+            width: 35.8vw;
+            object-fit: cover;
+            overflow: hidden;
+        }
+    }
+}
