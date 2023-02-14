@@ -21,17 +21,26 @@
 
 .Detail-post-child{
 
+    height: 200vw;
+    margin-bottom: 150px;
+
     &:last-child{
         display: block;
         width: 38.8vw;
-        height: 100%;
+        margin-bottom: 2vw;
         object-fit: cover;
         overflow: hidden;
     }
 
     &_header{
         margin-top: 5vw;
-        
+        & h1{
+            font-size: 3.7vw;
+            font-family: "BebasNeue", sans-serif;
+            font-weight: 600;
+            text-align: center;
+            color: #999999;
+        }
         & h3{
             font-size: 3.7vw;
             font-family: "BebasNeue", sans-serif;
@@ -54,20 +63,23 @@
 
 .Detail-child-article-first{
     width: 79.6vw;
-    height: 36.6vw;
+    height: 42.6vw;
     display: flex;
     margin: 5vw auto 0 auto;
+    flex-wrap: wrap;
 
     &-content{
         width: 38.8vw;
-        height: 100%;
         margin: 0 2vw;
+        margin-bottom: 2vw;
 
         & img {
             width: 100%;
             height: 25vw;
             object-fit: cover;
             overflow: hidden;
+
+            
         }
 
         & h3{
@@ -88,6 +100,21 @@
             color: #999999;
             width: 100%;
             text-align: justify;
+        }
+    }
+
+    &__img{
+        width: 38.8vw;
+        height: 25vw;
+        overflow: hidden;
+        object-fit: cover;
+        
+
+        &:hover{
+            img {
+                transform: scale(1.2);
+                transition: all 1s ease-in-out;
+            }
         }
     }
 
