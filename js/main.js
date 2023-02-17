@@ -36,7 +36,6 @@ function setupMobileSubMenu() {
   subMenus.forEach((subMenu) => {
     const menuItemLink = getMenuItemLink(subMenu);
     const subMenuArrow = document.createElement('span');
-    console.log(subMenus);
 
     subMenuArrow.classList.add('sub-arrow');
     subMenuArrow.addEventListener('click', (event) => {
