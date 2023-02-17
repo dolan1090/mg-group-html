@@ -13,12 +13,23 @@ function setupSwiperSlider() {
   });
 }
 
-// Setup page elements
-function setupElements() {
-  // Setup languages select box
-  const languagesBox = customSelect('#languages-select');
+// Setup languages select box
+function setupLanguagesSelectBox() {
+  const selectBoxID = 'languages-select';
+  const customSelectBoxes = customSelect(`#${selectBoxID}`);
 
-  // Setup scroll to top button
+  if (!customSelectBoxes.length) return;
+
+  const languagesBox = customSelectBoxes[0];
+  const boxOpener = languagesBox.opener;
+  const boxPanel = languagesBox.panel;
+
+  boxOpener.setAttribute('aria-label', 'select-opener');
+  boxPanel.setAttribute('aria-label', 'select-panel');
+}
+
+// Setup scroll to top button
+function setupScrollToTopButton() {
   const scrollToTopButton = document.querySelector('.back-to-top');
   scrollToTopButton.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -87,7 +98,8 @@ function setupMobileMenu() {
   };
 }
 
+setupLanguagesSelectBox();
 setupSwiperSlider();
-setupElements();
 setupMobileMenu();
 setupMobileSubMenu();
+setupScrollToTopButton();
