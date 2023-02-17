@@ -15,7 +15,7 @@ function setupSwiperSlider() {
 
 // Setup languages select box
 function setupLanguagesSelectBox() {
-  const selectBoxID = 'languages-select';
+  const selectBoxID = 'lang_choice_1';
   const customSelectBoxes = customSelect(`#${selectBoxID}`);
 
   if (!customSelectBoxes.length) return;
